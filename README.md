@@ -51,7 +51,7 @@ AI_DEVS_API_KEY=...
 
 | Epizod | Temat | Rozwiązanie |
 |--------|-------|-------------|
-| E01 | Programowanie interakcji z modelem językowym | [agent.py](S01/E01/solution/agent.py) |
+| E01 | Programowanie interakcji z modelem językowym | [s01e01_agent.ipynb](S01/E01/solution/s01e01_agent.ipynb) |
 | E02 | Techniki łączenia modelu z narzędziami | [s01e02_findhim.ipynb](S01/E02/solution/s01e02_findhim.ipynb) |
 | E03 | Projektowanie API dla efektywnej pracy z modelem | [s01e03_proxy.ipynb](S01/E03/solution/s01e03_proxy.ipynb) |
 | E04 | Wsparcie multimodalności oraz załączników | [s01e04_sendit.ipynb](S01/E04/solution/s01e04_sendit.ipynb) |
@@ -64,8 +64,8 @@ AI_DEVS_API_KEY=...
 | E01 | Zarządzanie kontekstem w konwersacji | [s02e01_categorize.ipynb](S02/E01/solution/s02e01_categorize.ipynb) |
 | E02 | Zewnętrzny kontekst narzędzi i dokumentów | [s02e02_electricity.ipynb](S02/E02/solution/s02e02_electricity.ipynb) |
 | E03 | Dokumenty oraz pamięć długoterminowa jako narzędzia | [s02e03_failure.ipynb](S02/E03/solution/s02e03_failure.ipynb) |
-| E04 | Organizowanie kontekstu dla wielu wątków | [agent.py](S02/E04/solution/agent.py) |
-| E05 | Projektowanie agentów | [agent.py](S02/E05/solution/agent.py) |
+| E04 | Organizowanie kontekstu dla wielu wątków | [s02e04_mailbox.ipynb](S02/E04/solution/s02e04_mailbox.ipynb) |
+| E05 | Projektowanie agentów | [s02e05_drone.ipynb](S02/E05/solution/s02e05_drone.ipynb) |
 
 ### S03 — Ewaluacja i narzędzia
 
