@@ -7,18 +7,10 @@ Moje rozwiązania zadań z kursu **[AI Devs 4](https://www.aidevs.pl/)**.
 ## Struktura
 
 ```
-S01/
-├── E01/
-│   ├── notes/      ← materiały z lekcji (lokalne, niewidoczne w repo)
-│   └── solution/   ← moje rozwiązanie zadania
-├── E02/
-│   ├── notes/
-│   └── solution/
-...
-S05/
-└── E05/
-    ├── notes/
-    └── solution/
+S01/ S02/ S03/ S04/ S05/
+└── E01/ E02/ E03/ E04/ E05/
+    ├── notes/      ← materiały z lekcji (lokalne, niewidoczne w repo)
+    └── solution/   ← moje rozwiązanie zadania
 ```
 
 ## Sezony i tematy
@@ -49,4 +41,4 @@ S05/
 | S05 | E02 | Zestaw narzędzi |
 | S05 | E03 | Rozwój funkcjonalności |
 | S05 | E04 | Produkcja |
-| S05 | E05 | — |
+| S05 | E05 | Secret |
