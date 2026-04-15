@@ -9,18 +9,10 @@ Moje rozwiązania zadań z kursu **[AI Devs 4](https://www.aidevs.pl/)** — pra
 Każdy sezon (`S01`–`S05`) zawiera pięć epizodów (`E01`–`E05`). W każdym epizodzie:
 
 ```
-S01/
-├── E01/
-│   ├── notes/      ← materiały z lekcji (lokalne, niewidoczne w repo)
-│   └── solution/   ← moje rozwiązanie zadania
-├── E02/
-│   ├── notes/
-│   └── solution/
-├── ...
-└── E05/
-    ├── notes/
-    └── solution/
-S02/ ... S05/  (ta sama struktura)
+S01/ S02/ S03/ S04/ S05/
+└── E01/ E02/ E03/ E04/ E05/
+    ├── notes/      ← materiały z lekcji (lokalne, niewidoczne w repo)
+    └── solution/   ← moje rozwiązanie zadania
 ```
 
 ## Tech stack
@@ -42,7 +34,7 @@ cd ai-devs-4
 
 python -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install anthropic openai python-dotenv requests tiktoken
+pip install anthropic openai python-dotenv requests tiktoken flask
 ```
 
 Skopiuj `.env.example` (lub utwórz `.env`) i uzupełnij klucze API:
@@ -50,6 +42,7 @@ Skopiuj `.env.example` (lub utwórz `.env`) i uzupełnij klucze API:
 ```
 ANTHROPIC_API_KEY=...
 OPENAI_API_KEY=...
+AI_DEVS_API_KEY=...
 ```
 
 ## Sezony i tematy
@@ -59,18 +52,18 @@ OPENAI_API_KEY=...
 | Epizod | Temat | Rozwiązanie |
 |--------|-------|-------------|
 | E01 | Programowanie interakcji z modelem językowym | [agent.py](S01/E01/solution/agent.py) |
-| E02 | Techniki łączenia modelu z narzędziami | — |
-| E03 | Projektowanie API dla efektywnej pracy z modelem | — |
-| E04 | Wsparcie multimodalności oraz załączników | — |
-| E05 | Zarządzanie jawnymi oraz niejawnymi limitami modeli | — |
+| E02 | Techniki łączenia modelu z narzędziami | [s01e02_findhim.ipynb](S01/E02/solution/s01e02_findhim.ipynb) |
+| E03 | Projektowanie API dla efektywnej pracy z modelem | [s01e03_proxy.ipynb](S01/E03/solution/s01e03_proxy.ipynb) |
+| E04 | Wsparcie multimodalności oraz załączników | [s01e04_sendit.ipynb](S01/E04/solution/s01e04_sendit.ipynb) |
+| E05 | Zarządzanie jawnymi oraz niejawnymi limitami modeli | [s01e05_railway.ipynb](S01/E05/solution/s01e05_railway.ipynb) |
 
 ### S02 — Zarządzanie kontekstem
 
 | Epizod | Temat | Rozwiązanie |
 |--------|-------|-------------|
-| E01 | Zarządzanie kontekstem w konwersacji | — |
-| E02 | Zewnętrzny kontekst narzędzi i dokumentów | — |
-| E03 | Dokumenty oraz pamięć długoterminowa jako narzędzia | — |
+| E01 | Zarządzanie kontekstem w konwersacji | [s02e01_categorize.ipynb](S02/E01/solution/s02e01_categorize.ipynb) |
+| E02 | Zewnętrzny kontekst narzędzi i dokumentów | [s02e02_electricity.ipynb](S02/E02/solution/s02e02_electricity.ipynb) |
+| E03 | Dokumenty oraz pamięć długoterminowa jako narzędzia | [s02e03_failure.ipynb](S02/E03/solution/s02e03_failure.ipynb) |
 | E04 | Organizowanie kontekstu dla wielu wątków | [agent.py](S02/E04/solution/agent.py) |
 | E05 | Projektowanie agentów | [agent.py](S02/E05/solution/agent.py) |
 
@@ -78,8 +71,8 @@ OPENAI_API_KEY=...
 
 | Epizod | Temat | Rozwiązanie |
 |--------|-------|-------------|
-| E01 | Obserwowanie i ewaluacja | — |
-| E02 | Ograniczenia modeli na etapie założeń projektu | — |
+| E01 | Obserwowanie i ewaluacja | [s03e01_evaluation.ipynb](S03/E01/solution/s03e01_evaluation.ipynb) |
+| E02 | Ograniczenia modeli na etapie założeń projektu | [s03e02_firmware.ipynb](S03/E02/solution/s03e02_firmware.ipynb) |
 | E03 | Kontekstowy feedback wspierający skuteczność agentów | [s03e03_reactor.ipynb](S03/E03/solution/s03e03_reactor.ipynb) |
 | E04 | Budowanie narzędzi na podstawie danych testowych | [s03e04_negotiations.ipynb](S03/E04/solution/s03e04_negotiations.ipynb) |
 | E05 | Niedeterministyczna natura modeli jako przewaga | [s03e05_savethem.ipynb](S03/E05/solution/s03e05_savethem.ipynb) |
@@ -89,7 +82,7 @@ OPENAI_API_KEY=...
 | Epizod | Temat | Rozwiązanie |
 |--------|-------|-------------|
 | E01 | Wdrożenia rozwiązań AI | [s04e01_okoeditor.ipynb](S04/E01/solution/s04e01_okoeditor.ipynb) |
-| E02 | Aktywna współpraca z AI | — |
+| E02 | Aktywna współpraca z AI | [s04e02_windpower.ipynb](S04/E02/solution/s04e02_windpower.ipynb) |
 | E03 | Kontekstowa współpraca z AI | [s04e03_domatowo.ipynb](S04/E03/solution/s04e03_domatowo.ipynb) |
 | E04 | Projektowanie własnej bazy wiedzy dla AI | [s04e04_filesystem.ipynb](S04/E04/solution/s04e04_filesystem.ipynb) |
 | E05 | Projektowanie rozwiązań wewnątrzfirmowych | [s04e05_foodwarehouse.ipynb](S04/E05/solution/s04e05_foodwarehouse.ipynb) |
