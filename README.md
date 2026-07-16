@@ -2,7 +2,7 @@
 
 > Moje rozwiązania 25 zadań z kursu [AI Devs 4](https://www.aidevs.pl/) — od interakcji z modelami po narzędzia i architekturę agentów.
 
-![Status: Active](https://img.shields.io/badge/status-active-2ea44f)
+![Status: Completed](https://img.shields.io/badge/status-completed-2ea44f)
 
 ## Overview
 
